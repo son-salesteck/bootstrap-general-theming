@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title of the Style Guide</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="generator" content="kss-node">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,300">
+    <link rel="stylesheet" href="kss-assets/vendor/prism.css">
+    <link rel="stylesheet" href="kss-assets/css/kss.css">
+    <link rel="stylesheet" href="../bootstrap-5.0.1/scss/bootstrap.css"/>
+<link rel="stylesheet" href="../node_modules/magnific-popup/dist/magnific-popup.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+<link rel="stylesheet" href="../docs.css"/>
+
+  </head>
+
+  <body class="kss-body">
+
+    <!-- header. -->
+    <header class="kss-header">
+      <section class="kss-header__inner">
+        <a class="kss-header__hamburger-trigger">
+          <div class="kss-header__hamburger"></div>
+        </a>
+        <h1 class="kss-header__title kss-title">Title of the Style Guide</h1>
+      </section>
+    </header>
+    <!-- /header. -->
+
+
+    <!-- navigation. -->
+    <section class="kss-navigation">
+      <h1 class="kss-navigation__title kss-title">Title of the Style Guide</h1>
+      <ul class="kss-nav">
+        <li class="kss-nav__item">
+          <a href="index.html">
+            <span class="kss-nav__ref">0</span>
+            <span class="kss-nav__name">Introduction</span>
+          </a>
+        </li>
+          <li class="kss-nav__item">
+            <a class="" href="section-base.html">
+              <span class="kss-nav__ref">1</span>
+              <span class="kss-nav__name">Base</span>
+            </a>
+          </li>
+          <li class="kss-nav__item">
+            <a class="" href="section-layout-components.html">
+              <span class="kss-nav__ref">2</span>
+              <span class="kss-nav__name">Layout &amp; components</span>
+            </a>
+          </li>
+          <li class="kss-nav__item">
+            <a class="" href="section-utilities.html">
+              <span class="kss-nav__ref">3</span>
+              <span class="kss-nav__name">Utilities</span>
+            </a>
+          </li>
+      </ul>
+    </section>
+    <!-- /navigation. -->
+
+
+    <!-- documentation. -->
+    <section class="kss-documentation">
+
+        <!--
+          display each section, in order.
+          the "root" element comes first in this loop, and can be detected using
+          the "#if @first" block as seen below.
+        -->
+            <header class="kss-section kss-section--depth-3" id="kssref-utilities-spacing-padding">
+
+            <article class="kss-section__content">
+                <p class="kss-section__source">Source: <span>_docs/bootstrap.css</span>, line <span>8787</span></p>
+
+              <a class="kss-section__permalink" href="#kssref-utilities-spacing-padding">
+                <h3 class="kss-section__item kss-section__item--depth-3">
+                  <span class="kss-section__ref">3.10.3</span>
+                  <span class="kss-section__name">Paddings</span>
+                </h3>
+              </a>
+
+                <div class="kss-section__description"><p>Paddings variation documentation can be found <a class='lightbox-iframe' href='https://getbootstrap.com/docs/5.0/utilities/spacing/'>Here</a></p>
+<div class='d-block bg-transparent'><div class='align-middle m-5 p-5'>'padding all' : <b>.p-{value}</b></div><div class='align-middle m-5 p-5'>'padding horizontal' : <b>.px-{value}</b></div><div class='align-middle m-5 p-5'>'padding vertical' : <b>.py-{value}</b></div><div class='align-middle m-5 p-5'>'padding left' : <b>.ps-{value}</b></div><div class='align-middle m-5 p-5'>'padding top' : <b>.pt-{value}</b></div><div class='align-middle m-5 p-5'>'padding right' : <b>.pe-{value}</b></div><div class='align-middle m-5 p-5'>'padding bottom' : <b>.pb-{value}</b></div></div></div>
+
+                <ul class="kss-parameters">
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      0
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-0</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      10%
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-p10</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      20%
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-p20</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      25%
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-p25</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      30%
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-p30</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      40%
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-p40</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      50%
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-p50</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      60%
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-p60</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      70%
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-p70</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      75%
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-p75</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      80%
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-p80</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      90%
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-p90</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      100%
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-p100</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      1px
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-1</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      2px
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-2</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      3px
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-3</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      4px
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-4</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      5px
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-5</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      6px
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-6</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      7px
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-7</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      8px
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-8</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      9px
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-9</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      10px
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-10</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      15px
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-15</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      20px
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-20</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      25px
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-25</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      30px
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-30</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      35px
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-35</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      40px
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-40</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      45px
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-45</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      50px
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-50</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      60px
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-60</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      70px
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-70</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      80px
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-80</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      90px
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-90</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      100px
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-100</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      110px
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-110</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      120px
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-120</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      130px
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-130</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      140px
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-140</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      150px
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-150</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      160px
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-160</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      170px
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-170</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      180px
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-180</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      190px
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-190</code>
+                  </li>
+                  <li class="kss-parameters__item">
+                    <p class="kss-parameters__description">
+                      200px
+
+                    </p>
+                    <code class="kss-parameters__name">.{prefix}-200</code>
+                  </li>
+                </ul>
+            </article>
+
+
+            </header>
+    </section>
+    <!-- /documentation. -->
+
+
+
+  <!-- scripts. -->
+  <script src="kss-assets/vendor/jquery.js"></script>
+  <script src="kss-assets/vendor/prism.js"></script>
+  <script src="kss-assets/js/kss.js"></script>
+  <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+<script src="../node_modules/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+<script src="../docs.js"></script>
+
+  <!-- /scripts. -->
+
+  </body>
+</html>
